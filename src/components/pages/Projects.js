@@ -3,7 +3,8 @@ import React from 'react'
 function Projects() {
     return (
         <div>
-          r  
+          Down below is links to some of my project's code that I worked on so far:
+           
         </div>
     )
 }

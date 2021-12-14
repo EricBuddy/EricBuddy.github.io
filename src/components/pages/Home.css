@@ -3,6 +3,9 @@
   height: 90vh;
   background-image: url("../../snow.jpg");
   background-size: cover;
+  /* background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 100% 90vh; */
 }
 .statements {
   text-align: center;
