@@ -15,6 +15,10 @@
   font-size: 40px;
 }
 
+.form {
+  padding-top: 2vh;
+}
+
 .pic {
   height: 310px;
   width: 349px;
