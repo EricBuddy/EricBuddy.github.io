@@ -1,23 +1,31 @@
-import logo from './Eric.jpg';
-import './App.css';
+import "./App.css";
+
+
+import Home from "./components/pages/Home";
+import Contact from "./components/pages/Contact";
+import About from "./components/pages/About";
+import Projects from "./components/pages/Projects";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-        My name is Eric Buddy and I'm going to master React!
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/EricBuddy"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Check Me Out!
-        </a>
-      </header>
+      <Router>
+        
+        <NavBar/>
+        
+        <Routes>
+          
+          <Route path="/" element={<Home/>} />
+          <Route path="/contact" element={<Contact/>} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/projects" element={<Projects/>} />
+        
+        </Routes>
+      
+      </Router>
+
     </div>
   );
 }
