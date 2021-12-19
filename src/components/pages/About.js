@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import resume from '../../Eric Buddy_Resume.pdf'
 function About() {
     return (
         <div className='about'>
@@ -12,7 +13,8 @@ function About() {
                 Studying: Lehman College<br/>
                 Major: Computer Science <br/>
                 Degree: B.S <br/>
-                Excepted to graduate in Spring 2022
+                Excepted to graduate in Spring 2022<br/><br/>
+                <a href={resume} download>Resume</a>
 
             </div>
         </div>
