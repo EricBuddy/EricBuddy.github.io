@@ -22,4 +22,15 @@
 .pic {
   height: 310px;
   width: 349px;
+  border-radius: 60%;
+  animation: pics 50s infinite linear;
+}
+
+@keyframes pics {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }

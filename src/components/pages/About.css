@@ -9,3 +9,9 @@
   padding-top: 6vh;
   font-size: 25px;
 }
+
+a {
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: underline;
+}

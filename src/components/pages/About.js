@@ -14,7 +14,7 @@ function About() {
                 Major: Computer Science <br/>
                 Degree: B.S <br/>
                 Excepted to graduate in Spring 2022<br/><br/>
-                <a href={resume} download>Resume</a>
+                <u><a href={resume} download>Click here to download my resume  </a></u>
 
             </div>
         </div>
